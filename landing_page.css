@@ -1,0 +1,86 @@
+header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    
+}
+nav{
+    width: 100%;
+    
+    
+}
+
+#header-img{
+    width: 50px;
+    height: 100px;
+}
+
+#form{
+    padding-top: 100px;
+}
+
+li{
+    display: inline;
+    padding: 20px;
+    text-align: right;
+    
+    
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+li:hover {
+    font-size: 1.05rem;
+    overflow: hidden;
+}
+ul{
+    width: 100%;
+    float: right;
+    text-align: right;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.flexbox > div > .p1 {
+    background-color: dodgerblue;
+    font-size: 30px;
+    margin: 10px 10px 0px 10px;
+}
+
+.flexbox > div > .p2 {
+    background-color: lightblue;
+    font-size: 15px;
+    margin: 0px 10px 10px 10px ;
+}
+
+.flexbox > div {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin:10px;
+}
+
